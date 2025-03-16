@@ -10,7 +10,7 @@ export default function AppNavigator() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Main">
-        <Stack.Screen name="Main" component={MainView} />
+         <Stack.Screen name="Main" component={MainView} />
         <Stack.Screen name="Map" component={MapViewScreen} />
       </Stack.Navigator>
     </NavigationContainer>
